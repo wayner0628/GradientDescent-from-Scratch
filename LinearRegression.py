@@ -30,7 +30,7 @@ class LinearRegression:
         Gradient = np.sum(np.dot((self.y_pred - self.y_train), self.x_train)) * 2 / len(self.x_train)
         return Gradient
 
-    def GradientDescent(self):
+    def GradientDescent(self) -> None:
         for i in range(self.iter):
             self.y_pred = self.weight * self.x_train + self.bias
             Loss = self.computeLoss(self.y_pred, self.y_train)
