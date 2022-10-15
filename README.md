@@ -1,1 +1,1 @@
-# GradientDescent-with-Numpy
+# GradientDescent-from-Scratch
