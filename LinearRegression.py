@@ -10,8 +10,8 @@ class LinearRegression:
         self.iter = 500
         self.lossDict = {}
 
-    def __call__(self, path) -> None:
-        self.x_train, self.x_test, self.y_train, self.y_test = np.load(path, allow_pickle=True)
+    def __call__(self, Path) -> None:
+        self.x_train, self.x_test, self.y_train, self.y_test = np.load(Path, allow_pickle=True)
         self.x_train = np.append([], self.x_train)
         self.x_test = np.append([], self.x_test)
         self.GradientDescent()
