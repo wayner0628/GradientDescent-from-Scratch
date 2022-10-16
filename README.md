@@ -9,7 +9,7 @@
 ### Loss curve
 ![Figure_1](https://user-images.githubusercontent.com/115421902/196023967-2fc1fbf1-7d3e-401e-a68f-e8e9587493c2.png)
 ### Training data and prediction distribution
-#### Upper dots are training data, lower dots are corresponding prediction
+#### Upper dots are training data, lower dots are corresponding predictions
 ![Figure_3](https://user-images.githubusercontent.com/115421902/196024004-b8c3e144-2da5-48e7-bd0d-78638a3e1223.png)
 ### Prediction Line
 #### Blue dots represent two types of data, orange dots denote prediction line
