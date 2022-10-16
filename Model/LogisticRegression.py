@@ -69,7 +69,7 @@ class LogisticRegression:
 
 if __name__ == "__main__":
     Model = LogisticRegression()
-    x_train, x_test, y_train, y_test = Model("../Dataset/classification_data.npy")
+    x_train, x_test, y_train, y_test = Model("./Dataset/classification_data.npy")
     y_pred = Model.weight * x_test + Model.bias
     Loss = Model.computeLoss(y_pred, y_test)
     print(Loss)
